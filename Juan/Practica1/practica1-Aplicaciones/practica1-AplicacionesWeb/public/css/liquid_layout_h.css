@@ -1,0 +1,24 @@
+#header {
+}
+#title {
+	background-color: pink;
+	width: 100%;
+	margin-left: -1em;
+	margin-top: -1em;
+}
+#menu {
+	margin-top: 1em;
+}
+#rightColumn {
+	display: none;
+}
+#leftColumn {
+	display: none;
+}
+#content {
+	background-color: pink;
+}
+#dojo-slideshow {
+}
+#slideshow-desc {
+}

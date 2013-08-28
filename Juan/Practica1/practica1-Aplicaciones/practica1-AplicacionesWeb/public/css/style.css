@@ -1,0 +1,122 @@
+body {
+	background-color: pink;
+}
+#header {
+	background-color: magenta;
+	border-bottom: medium double #2F0B3A;
+}
+#title {
+	padding: 1em;
+	font-size: 2em;
+	font-weight: bold;
+	color: blue;
+}
+#rightColumn, #leftColumn, #content, #footer {
+	background-color: violet;
+	
+}
+.clearFloat {
+	clear: both;
+	display: none;
+}
+#footer {
+	border-top: medium double #2F0B3A;
+	margin-top: 1%;
+}
+#credits {
+	text-align: left;
+}
+#footer-menu {
+	text-align: right;
+	margin-top: -1em;
+}
+h1 {
+	font-size: 2em;
+	font-style: italic;
+	color: white;
+}
+h2 {
+	font-size: 1.5em;
+	font-style: italic;
+	color: green;
+}
+ul, li {
+	text-align: left;
+}
+.btn, .btn:link {
+	font-weight: bold;
+	padding-bottom: 0.2em;
+	padding-top: 0.2em;
+	color: #FFF;
+}
+.btn:visited {
+	font-weight: bold;
+	padding-bottom: 0.2em;
+	padding-top: 0.2em;
+	color: #FFF;
+}
+.btn:hover {
+	font-weight: bold;
+	padding-bottom: 0.2em;
+	padding-top: 0.2em;
+	border: 2px solid #81BEF7;
+	/*para Firefox*/
+	-moz-border-radius: 5px 5px 5px 5px;
+	/*para Safari y Chrome*/
+	-webkit-border-radius: 5px 5px 5px 5px;
+	/* para Opera */
+	border-radius: 5px 5px 5px 5px;
+	color: #585858;
+}
+.btn:focus {
+	font-weight: bold;
+	padding-bottom: 0.2em;
+	padding-top: 0.2em;
+}
+.btn:active {
+	font-weight: bold;
+	padding-bottom: 0.2em;
+	padding-top: 0.2em;
+	border: 2px solid #81BEF7;
+	/*para Firefox*/
+	-moz-border-radius: 5px 5px 5px 5px;
+	/*para Safari y Chrome*/
+	-webkit-border-radius: 5px 5px 5px 5px;
+	/* para Opera */
+	border-radius: 5px 5px 5px 5px;
+	color: #585858;
+}
+
+/* Sets the style for links. */
+a, a:link {
+	font-weight: bold;
+	color: #08088A;
+}
+/* Sets the style for visited links. */
+a:visited {
+	font-weight: bold;
+	color: #819FF7;
+	text-decoration: underline;
+}
+/* Sets the style for links on mouseover. */
+a:hover {
+	font-weight: bold;
+	color: #819FF7;
+	text-decoration: underline;
+	-webkit-transition-duration: 250ms;
+	-moz-transition-duration: 250ms;
+	-o-transition-duration: 250ms;
+	transition-duration: 250ms;
+}
+/* Sets the style for a link that has focus. */
+a:focus {
+	font-weight: bold;
+}
+/* Sets the style for a link that is being activated/clicked. */
+a:active {
+	font-weight: bold;
+	color: #08088A;
+}
+p{
+	font-size: 90%;
+}

@@ -1,0 +1,22 @@
+/* 
+    Document   : imagen
+    Created on : 9/05/2013, 08:42:08 AM
+    Author     : Starforce
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#imagenPerfil{
+    margin-top: 2%;
+    margin-left: 2%;
+    
+}
+
+#elegir{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 10%;
+    height: 55%;
+    font-size: 40%;
+    display:inline-block;
+}

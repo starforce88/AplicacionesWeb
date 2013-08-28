@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <title>Login_Registro.jsp</title>
+        <link rel='stylesheet' type="text/css" href='css/estilos.css' media="screen">
+        <link rel='stylesheet' type='text/css' href='css/estilosMovil.css' media="handheld">
+        <script type="text/JavaScript" src="js/jquery-1.9.1.js"> </script>
+        <script type="text/JavaScript" src="js/login.js"></script>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+    </head>
+    <body>
+        <div id="bar">
+            <div id="container">
+                <img src="images/shield.jpg" alt="HaifischwareLogo" width="124" height="125" align="top" id="logo">
+                <div id="loginContainer">
+                    <a href="#" id="loginButton"><span>Login</span><em></em></a>
+                    <div style="clear:both"></div>
+                    <div id="loginBox">
+                        <form id="loginForm">
+                            <fieldset id="body">
+                                <fieldset>
+                                    <label for="email">Usuario</label>
+                                    <input type="text" id="email"/>
+                                </fieldset>
+                                <fieldset>
+                                    <label for="password">Password</label>
+                                    <input type="password" id="password"/>
+                                </fieldset>
+                                <input type="submit" value="Validar" id="login"/>
+                                &nbsp;&nbsp;
+                                <input type="reset" value ="Limpiar" id="login"/>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--- iniciar()--->
+
+        <div id="registro">
+            
+            <!--- registrar()--->
+            <h1>Registro de usuarios</h1>
+            <form class="contacto">
+                
+                Nombre de usuario:
+                <input type = "text"/>
+                
+                Nombre:
+                <input type = "text"/>
+                
+                Apellido paterno:
+                <input type = "text"/>
+                
+                Apellido materno:
+                <input type = "text"/>
+                
+                Correo:
+                <input type = "text"/>
+                
+                Contraseña:
+                <input type = "password"/>
+                
+                Repetir contraseña:
+                <input type = "password"/>
+                
+                <br/>
+                <input type="submit" value="Registrar"/>
+                &nbsp;&nbsp;
+                <input type="reset" value ="Limpiar"/>
+            </form>
+            <br/>
+        </div>
+
+    <footer>
+        © 2013 Ivan Lozada Mendez
+    </footer>
+</body>
+</html>

@@ -1,0 +1,24 @@
+#header {
+}
+#title {
+}
+#menu {
+}
+#rightColumn {
+	display: none;
+}
+#leftColumn {
+	float: left;
+	width: 25%;
+	font-size: 10.1pt;
+}
+#content {
+	width: 70%;
+	margin-left: 28%;
+}
+#dojo-slideshow {
+	height: 4em;
+}
+#slideshow-desc {
+	margin-top: 13em;
+}

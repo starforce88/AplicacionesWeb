@@ -1,0 +1,44 @@
+html,body{
+	width:100%;
+	height:100%;
+	padding:0;
+	background:#C0DEED !important;
+	margin:0 !important;
+	font-family:arial !important;
+	background-image: URL(..//images/bg.png) !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed !important;
+}
+
+
+
+footer{
+    color: black;
+    font-weight: bold;
+    position: relative;
+    margin-top: -50px; /* altura en px del footer con valor negativo */
+    height: 35px; /* Altura del Footer en px*/
+    clear: both;
+    background: url(../images/bar.png) repeat-x;
+    text-align: center;
+}
+
+#postear{
+    width: 66% !important;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 10px !important;
+    background-image: -webkit-linear-gradient(top, rgb(140, 243, 243), rgb(52, 118, 218)) !important;
+    height: auto !important;
+}
+
+#publicacion{
+    border: 1px solid green;
+    width: 66%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    min-height: 500px;
+}

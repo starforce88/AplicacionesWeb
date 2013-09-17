@@ -1,0 +1,77 @@
+body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	background: #C0DEED !important;
+	margin: 0 !important;
+	font-family: arial !important;
+	background-image: URL(..//images/bg.png) !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed !important;
+}
+
+#logo{
+	float: left !important;
+	margin-left: 10%;
+	background: #C0DEED !important;
+}
+
+#bar{
+	background: url(..//images/bar.png) repeat-x !important;
+}
+
+footer{
+	font-weight: bold;
+	position: relative;
+	
+	
+	background: url(../images/bar.png) repeat-x;
+	text-align: center;
+}
+
+#registro {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+}
+
+#contacto {
+	border: 1px solid #CED5D7 !important;
+	border-radius: 6px !important;
+	padding: 45px 45px 20px !important;
+	margin-top: 50px !important;
+	background-color: white !important;
+	box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset !important;
+}
+
+#contacto input[type='text'], #contacto textarea {
+	padding: 7px 6px;
+	width: 294px;
+	border: 1px solid #CED5D7;
+	resize: none;
+	box-shadow: 0 0 0 3px #EEF5F7;
+	margin: 5px 0;
+}
+
+#contacto input[type='password'], #contacto textarea {
+	padding: 7px 6px;
+	width: 294px;
+	border: 1px solid #CED5D7;
+	resize: none;
+	box-shadow: 0 0 0 3px #EEF5F7;
+	margin: 5px 0;
+}
+
+#contacto input[type='submit'] {
+	border: 1px solid #CED5D7;
+	box-shadow: 0 0 0 3px #EEF5F7;
+	padding: 8px 16px;
+	border-radius: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px white;
+	background: #e4f1f6;
+	background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+	background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+}
+

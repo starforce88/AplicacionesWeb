@@ -1,0 +1,79 @@
+#postear {
+	width: 66%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	background-image: -webkit-linear-gradient(top, rgb(140, 243, 243), rgb(52, 118, 218));
+	height: 50px;
+}
+
+.form-inline{
+	padding-top: 1%; 
+	padding-left: 1%;
+}
+
+.input-small{
+	width: 50%;
+}
+
+#publicacion {
+	border: 1px solid green;
+	width: 66%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	min-height: 500px;
+}
+
+.msj {
+	border: 1px solid white;
+	margin-top: 10px;
+	width: 98.88%;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 54px;
+	color: black;
+	font-weight: bold;
+	background-color: white;
+}
+
+.msj img {
+	border: 2px solid darkblue;
+}
+
+.navbar-inner{
+	background-image: -webkit-linear-gradient(top, rgb(140, 243, 243), rgb(52, 118, 218)) !important;
+}
+
+.container{
+	background-image: -webkit-linear-gradient(top, rgb(140, 243, 243), rgb(52, 118, 218)) !important;
+	
+}
+
+.brand{
+	color: black !important;
+}
+
+.navbar-inverse .nav > li > a {
+	color: black !important;
+}
+
+.caret{
+	color: black !important;
+}
+
+.navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
+	border-top-color: #000;
+	border-bottom-color: #000;
+}
+
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+	color: #ffffff !important;
+	background-color: #111111;
+}
+
+.navbar-inverse .nav-collapse .dropdown-menu a {
+	color: #000;
+}

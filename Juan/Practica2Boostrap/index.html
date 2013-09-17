@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Practica 2 Aplicaciones Web</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+		<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+		<link rel='stylesheet' type="text/css" href='public/css/estilos.css' media="screen">
+		<script src="public/js/jquery-1.9.1.js"></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<style type="text/css">
+			body {
+				padding-top: 40px;
+				padding-bottom: 40px;
+				background-color: #f5f5f5;
+			}
+
+			.form-signin {
+				max-width: 300px;
+				padding: 19px 29px 29px;
+				margin: 0 auto 20px;
+				background-color: #fff;
+				border: 1px solid #e5e5e5;
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+				-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+				-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+			}
+			
+			.form-signin .form-signin-heading,
+			.form-signin .checkbox {
+				margin-bottom: 10px;
+			}
+			
+			.form-signin input[type="text"],
+			.form-signin input[type="password"] {
+				font-size: 16px;
+				height: auto;
+				margin-bottom: 15px;
+				padding: 7px 9px;
+			}
+
+    </style>
+	</head>
+	<body>
+		<img src="public/images/america2.jpg" alt="Logo" width="124" height="125" align="top" id="logo">
+		
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner" id="bar">
+				<div class="container">
+					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="brand" href="#">
+					</a>
+					
+					<div class="nav-collapse collapse">
+						<form class="navbar-form pull-right">
+							<input class="span2" type="text" placeholder="Correo Electronico">
+							<input class="span2" type="password" placeholder="Password">
+							<button type="submit" class="btn">Validar</button>
+						</form>
+					</div><!--/.nav-collapse -->
+				</div>
+			</div>
+		</div>
+		<div class="container" id="registro">
+
+			<form class="form-signin" id="contacto">
+				<h2 class="form-signin-heading">Registro</h2>
+				<input type="text" class="input-block-level" placeholder="Nombre de Usuario">
+				<input type="text" class="input-block-level" placeholder="Nombre">
+				<input type="text" class="input-block-level" placeholder="Apellido Paterno">
+				<input type="text" class="input-block-level" placeholder="Apellido Materno">
+				<input type="text" class="input-block-level" placeholder="Correo Electronico">
+				<input type="password" class="input-block-level" placeholder="Password">
+				<input type="password" class="input-block-level" placeholder="Repetir Password">
+			
+				<input type="submit" value="Registrar">
+			</form>
+		</div>
+		<footer class="visible-desktop">
+			<div class="container">
+				<p class="muted credit">
+					© 2013 Lozada Mendez Ivan. Aplicaciones Web 
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>

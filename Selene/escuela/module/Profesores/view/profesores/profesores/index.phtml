@@ -1,0 +1,70 @@
+<<<<<<< HEAD
+		<!-- Le styles -->
+		<?php 
+			echo $this->headLink()
+						->prependStylesheet($this->basePath() . '/css/blue-bootstrap.min.css')	
+		?>
+		
+				
+		<?php
+		$title = 'Profesores';
+		$this -> headTitle($title);
+		?>
+
+	
+	<div class="row">
+		 <div class="aside-menu well col-xs-6 col-md-5" style="">
+		 	<header>
+		 		<h2><?php echo $this -> escapeHtml($title); ?></h2>
+		 	</header>
+		 </div>
+=======
+<?php
+include_once("layout-header.phtml");
+?>
+		
+	<div class="row">
+		 < <div class="aside-menu well col-xs-6 col-md-5" style="">
+		 	<header>
+		 		<h2><?php echo $this -> escapeHtml($title); ?></h2>
+		 	</header>
+		 	
+		 	<div class="section-menu btn-group">
+		 		<a href="#" class="btn btn-Profesores btn-block" role="button">Inscribir</a>
+		 		<a href="#" class="btn btn-Profesores btn-block" role="button">Actualizar Datos</a>
+		 		<a href="#" class="btn btn-Profesores btn-block" role="button">Borrar</a>
+		 	</div>
+		 	
+		 </div>
+  		
+  			
+>>>>>>> origin/ramirez
+<p>
+    <a href="<?php echo $this->url('profesores', array('action'=>'add'));?>">Inscribir Profesor</a>
+</p>
+  		<div class="main-content col-xs-12 col-sm-6 col-md-7">
+  				<table class="table">
+<tr>
+    <th>Title</th>
+    <th>Artist</th>
+    <th>&nbsp;</th>
+</tr>
+<?php foreach ($profesores as $profesor) : ?>
+<tr>
+    <td><?php echo $this -> escapeHtml($profesor-> idProfesor); ?></td>
+    <td><?php echo $this -> escapeHtml($profesor -> nombres); ?></td>
+    <td>
+    	
+        <a href="<?php echo $this->url('profesores',
+            array('action'=>'edit', 'id' => $profesor->idProfesor));?>">Edit</a>
+        <a href="<?php echo $this->url('profesores',
+            array('action'=>'delete', 'id' => $profesor->idProfesor));?>">Delete</a>
+           
+    </td>
+</tr>
+<?php endforeach; ?>
+</table>
+  		</div>
+  	</div>
+	
+
